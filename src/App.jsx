@@ -51,7 +51,7 @@ const Resume = () => {
               <p>
                 Developed an online compiler for writing, compiling, and running code in multiple languages. Integrated Judge0 API for executing code and handling errors.
               </p>
-              <a href="https://rce-system.netlify.app/">Link: </a>
+              <a href="https://rce-system.netlify.app/">Project-link </a>
             </div>
 
             <div>
