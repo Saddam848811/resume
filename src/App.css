@@ -1,0 +1,116 @@
+/* Base styling (applies to all) */
+body {
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center; /* Horizontally center */
+  align-items: center; /* Vertically center */
+  min-height: 100vh; /* Ensure it takes the full viewport height */
+  background-color: #121212; /* Dark background */
+}
+
+/* For small screens (Mobile devices) */
+@media (max-width: 480px) {
+  .resume {
+    width: 100%;
+    padding: 15px;
+    box-shadow: none;
+  }
+
+  .resume-header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .profile-image img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%; /* Always circular */
+    object-fit: cover;
+  }
+
+  .resume-body {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .left-column, .right-column {
+    padding: 0;
+    border: none;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
+
+  .resume-footer {
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+
+  i {
+    font-size: 1.2rem;
+  }
+}
+
+/* For larger screens (PCs) */
+@media (min-width: 1024px) {
+  .resume {
+    width: 70%;
+    max-width: 900px;
+    padding: 20px;
+    margin: auto; /* Center the resume */
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+  }
+
+  .resume-header {
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-bottom: 30px;
+  }
+
+  .profile-image img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%; /* Always circular */
+    object-fit: cover;
+  }
+
+  .resume-body {
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  .left-column, .right-column {
+    padding: 0;
+    border: none;
+  }
+
+  .left-column {
+    border-right: 2px solid #444; /* For PC only */
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  h3 {
+    font-size: 1.2rem;
+  }
+
+  .resume-footer {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  i {
+    font-size: 1.4rem;
+  }
+}
