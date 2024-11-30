@@ -7,7 +7,18 @@ body {
   justify-content: center; /* Horizontally center */
   align-items: center; /* Vertically center */
   min-height: 100vh; /* Ensure it takes the full viewport height */
-  background-color: #121212; /* Dark background */
+  background-color: #ffffff; /* Light background */
+  color: #000000; /* Black text */
+}
+
+/* Links styling */
+a {
+  color: #0066cc; /* Blue for links */
+  text-decoration: none; /* Remove underline */
+}
+
+a:hover {
+  text-decoration: underline; /* Underline links on hover */
 }
 
 /* For small screens (Mobile devices) */
@@ -43,10 +54,12 @@ body {
 
   h2 {
     font-size: 1.2rem;
+    color: #000000; /* Black color for headings */
   }
 
   h3 {
     font-size: 1rem;
+    color: #000000; /* Black color for sub-headings */
   }
 
   .resume-footer {
@@ -99,10 +112,12 @@ body {
 
   h2 {
     font-size: 1.5rem;
+    color: #000000; /* Black color for headings */
   }
 
   h3 {
     font-size: 1.2rem;
+    color: #000000; /* Black color for sub-headings */
   }
 
   .resume-footer {
