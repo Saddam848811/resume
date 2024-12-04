@@ -53,6 +53,15 @@ const Resume = () => {
               </p>
               <a href="https://rce-system.netlify.app/">Project-link </a>
             </div>
+            
+            <div>
+            <h3>1. Student-Details-Form</h3>
+              <p><strong>Technologies:</strong> Html, CSS, JavaScript, OPEN_CAGE API</p>
+              <p>
+                Developed an online form for where Age,State and Percentage  gets calculated automatically when student fills the Details
+              </p>
+              <p><strong>Link:</strong> <a href="https://students-details-form.netlify.app/">Project-Link</a></p>
+            </div>
 
             <div>
               <h3>2. Attendance Management System</h3>
