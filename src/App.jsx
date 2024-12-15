@@ -29,7 +29,7 @@ const Resume = () => {
   <h2><i className="fas fa-graduation-cap"></i> Education</h2>
   <ul class="education-list">
     <li class="education-item">
-      <span class="course-name">Master of Computer Applications (MCA) - Dr. Virendra Swaroop Institute of Computer Studies, Lucknow</span>
+      <span class="course-name">Master of Computer Applications (MCA) - Dr. Virendra Swaroop Institute of Computer Studies</span>
       <span class="course-details">Aug 2023 - Jun 2025 | CGPA: 8.50/10.0</span>
     </li>
     <li class="education-item">
