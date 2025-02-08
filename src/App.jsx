@@ -111,8 +111,7 @@ const Resume = () => {
               <p><strong>Link:</strong> <a href="https://students-details-form.netlify.app/">Project-Link</a></p>
             </div>
 
-<<<<<<< HEAD
-=======
+
             <div>
               <h3>3. Attendance Management System</h3>
               <p><strong>Technologies:</strong> Java, Spring Boot, JSP, MySQL</p>
@@ -120,7 +119,6 @@ const Resume = () => {
                 Developed a web application for college management, enabling teachers and students to manage attendance and courses. Features include attendance tracking and course management for both teachers and students.
               </p>
             </div>
->>>>>>> 3dc958b52d963ec750ccd17fcc2ad9d0ed327bc8
           </section>
 
           <section>
