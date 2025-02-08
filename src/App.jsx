@@ -101,24 +101,7 @@ const Resume = () => {
 <p><strong></strong> <a href="https://students-details-form.netlify.app/">Project-link </a></p>
 
             </div>
-            
-            <div>
-            <h3>2. Student-Details-Form</h3>
-              <p><strong>Technologies:</strong> Html, CSS, JavaScript, OPEN_CAGE API</p>
-              <p>
-                Developed an online form for where Age,State and Percentage  gets calculated automatically when student fills the Details
-              </p>
-              <p><strong>Link:</strong> <a href="https://students-details-form.netlify.app/">Project-Link</a></p>
-            </div>
 
-
-            <div>
-              <h3>3. Attendance Management System</h3>
-              <p><strong>Technologies:</strong> Java, Spring Boot, JSP, MySQL</p>
-              <p>
-                Developed a web application for college management, enabling teachers and students to manage attendance and courses. Features include attendance tracking and course management for both teachers and students.
-              </p>
-            </div>
           </section>
 
           <section>
