@@ -16,8 +16,9 @@ const Resume = () => {
               <hr />
               <p><i className="fas fa-phone-alt"></i> Phone: (+91) 8562905797</p>
               <p><i className="fas fa-envelope"></i> Email: <a href="mailto:sh848811@gmail.com">sh848811@gmail.com</a></p>
-              <p>City: Kanpur, Country: India</p>
+              <p>City: Kanpur (208014), State: Uttar Pradesh, Country: India</p>
             </div>
+            <hr />
           </div>
         </div>
       </header>
@@ -43,9 +44,9 @@ const Resume = () => {
   <h2><i className="fas fa-cogs"></i> Key Skills</h2>
   <ul>
     <li><strong>Programming Languages:</strong> Java</li>
-    <li><strong>Technologies:</strong> React, Spring Boot</li>
-    <li><strong>Skills:</strong> HTML, CSS, JavaScript, ReactJS, Spring Boot</li>
-    <li><strong>Miscellaneous:</strong> MySQL, JDBC, Servlet</li>
+    <li><strong>Technologies Learning:</strong> React, Spring Boot</li>
+    <li><strong>Skills:</strong> HTML, CSS, JavaScript</li>
+    <li><strong>Miscellaneous:</strong> MySQL,Mongo DB, JDBC, Servlet</li>
   </ul>
 </section>
 
@@ -68,9 +69,13 @@ const Resume = () => {
   <li>Teachers can add and delete courses according to respective semesters and subjects.</li>
   <li>Students can track their attendance and fines imposed from their profile.</li>
 </ul>
-<p><strong></strong> <a href="https://github.com/Saddam848811/Attendance-Management-System/blob/master/src/main/java/com/example/demo/controller/frontcontroller.java">Project-link </a></p>
+<p><strong></strong> <a href="https://youtu.be/Df2xBrzsqb4?si=tIBuZ-F8rkQ-GDc_">Project-link </a></p>
 
-            <h3>2. Code Execution System</h3>
+<div> <h3>2. Quiz App from TestLine</h3> <p><strong>Technologies:</strong> React.js, Node.js,CSS, Axios</p> <p> Developed a dynamic quiz application that allows users to take quizzes, track their score, and view a summary of their performance with time. Features include: </p> <ul> <li>Dynamic question display with a timer for each question.</li> <li>Real-time score tracking with a final summary page after the quiz.</li> <li>Progress bar to visually track quiz completion in real-time.</li> <li>Badges earned based on quiz performance, visible on the user's profile.</li> <li>Backend integration with Node.js to handle and serve quiz data.</li> <li>Custom styling to enhance user experience with responsive design.</li> <li>API integration using Axios to fetch questions and submit answers to the backend.</li> </ul> </div>  
+
+<p><strong></strong> <a href="https://quizgame-testline-frontend.onrender.com/">Project-link </a></p>
+
+ <h3>3. Code Execution System</h3>
 <p><strong>Technologies:</strong> ReactJS, Judge0 API</p>
 <p>
   Developed an online compiler for writing, compiling, and running code in multiple programming languages. Features include:
@@ -83,7 +88,7 @@ const Resume = () => {
 </ul>
 <p><strong></strong>  <a href="https://rce-system.netlify.app/">Project-link </a></p>
 
-<h3>3. Student Details Form</h3>
+<h3>4. Student Details Form</h3>
 <p><strong>Technologies:</strong> HTML, CSS, JS, OpenCage API</p>
 <p>
   Developed a full-stack online user-friendly interface with the following features:
@@ -97,9 +102,25 @@ const Resume = () => {
 
             </div>
             
-      
+            <div>
+            <h3>2. Student-Details-Form</h3>
+              <p><strong>Technologies:</strong> Html, CSS, JavaScript, OPEN_CAGE API</p>
+              <p>
+                Developed an online form for where Age,State and Percentage  gets calculated automatically when student fills the Details
+              </p>
+              <p><strong>Link:</strong> <a href="https://students-details-form.netlify.app/">Project-Link</a></p>
+            </div>
 
-          
+<<<<<<< HEAD
+=======
+            <div>
+              <h3>3. Attendance Management System</h3>
+              <p><strong>Technologies:</strong> Java, Spring Boot, JSP, MySQL</p>
+              <p>
+                Developed a web application for college management, enabling teachers and students to manage attendance and courses. Features include attendance tracking and course management for both teachers and students.
+              </p>
+            </div>
+>>>>>>> 3dc958b52d963ec750ccd17fcc2ad9d0ed327bc8
           </section>
 
           <section>
