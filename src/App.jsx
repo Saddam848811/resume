@@ -6,7 +6,7 @@ const Resume = () => {
   return (
     <div className="resume">
       <header className="resume-header">
-        <div className="header-content flex">
+        <section>   <div className="header-content flex">
           <div className="profile-image">
             <img src={profileImage} alt="Saddam Husain" />
           </div>
@@ -14,12 +14,13 @@ const Resume = () => {
             <h1>Saddam Husain</h1>
             <hr />
             <div className="contact-info">
-              <p><i className="fas fa-phone-alt"></i> (+91) 8562905797</p>
+              <p><i className="fas fa-phone-alt"></i> (+91) <b>8562905797</b></p>
               <p><i className="fas fa-envelope"></i> <a href="mailto:sh848811@gmail.com">sh848811@gmail.com</a></p>
-              <p><i className="fas fa-map-marker-alt"></i> NOIDA, Uttar Pradesh, India</p>
+              <p><i className="fas fa-map-marker-alt"></i><b>NOIDA, Uttar Pradesh, India</b> </p>
             </div>
           </div>
-        </div>
+        </div></section>
+     
       </header>
 
        <section>
@@ -35,7 +36,7 @@ const Resume = () => {
               <li>Developed a full-stack web application with user authentication, authorization, and RESTful APIs for user and admin operations.</li>
               {/* <li>Designed and managed PostgreSQL schemas for data persistence and implemented Spring Security for secure access control.</li> */}
             </ul>
-
+<hr />
             <h3>Proceedit - <span className="role">Full Stack Intern</span></h3>
             <p><strong>Duration:</strong> 26th Jan 2025 - May 2025</p>
             <p><strong>Project Name:</strong> CTI Smart-Trading / Model Prediction, Proceed-IT Web Services</p>
@@ -88,7 +89,7 @@ const Resume = () => {
     <li>Message history: All chats are saved, and users can access them anytime.</li>
   </ul>
   <p><a href="https://fire-chat-live.onrender.com/">Project-link</a></p>
-
+<hr />
   <h3>2. Attendance Management System</h3>
   <p><strong>Technologies:</strong> Java, Spring Boot, JSP, MySQL</p>
   <ul>
@@ -96,7 +97,7 @@ const Resume = () => {
     <li>Implemented teacher/student login, attendance tracking, and course management features.</li>
   </ul>
   <p><a href="https://youtu.be/Df2xBrzsqb4?si=tIBuZ-F8rkQ-GDc_">Project-link</a></p>
-
+<hr />
   <h3>3. Code Execution System</h3>
   <p><strong>Technologies:</strong> ReactJS, Judge0 API</p>
   <ul>
@@ -126,9 +127,9 @@ const Resume = () => {
         </div>
       </div>
 
-      <footer className="resume-footer">
+      {/* <footer className="resume-footer">
         <p>© 2025 Saddam Husain</p>
-      </footer>
+      </footer> */}
     </div>
   );
 };
