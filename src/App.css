@@ -1,150 +1,157 @@
-/* Base styling (applies to all) */
 body {
-  font-size: 16px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
   padding: 0;
-  display: flex;
-  justify-content: center; /* Horizontally center */
-  align-items: center; /* Vertically center */
-  min-height: 100vh; /* Ensure it takes the full viewport height */
-  background-color: #ffffff; /* Light background */
-  color: #000000; /* Black text */
+  background-color: #f4f7f9;
+  color: #333;
 }
 
-/* Links styling */
 a {
-  color: #0066cc; /* Blue for links */
-  text-decoration: none; /* Remove underline */
+  color: #000000;
+  text-decoration: none;
+  transition: all 0.3s ease;
 }
 
 a:hover {
-  text-decoration: underline; /* Underline links on hover */
+  text-decoration: underline;
+  color: #000000;
 }
 
-/* For small screens (Mobile devices) */
-@media (max-width: 480px) {
-  .resume {
-    width: 100%;
-    padding: 15px;
-    box-shadow: none;
-  }
-
-  .resume-header {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-
-  .profile-image img {
-    width: 80px;
-    height: 80px;
-    border-radius: 50%; /* Always circular */
-    object-fit: cover;
-  }
-
-  .resume-body {
-    flex-direction: column;
-    gap: 15px;
-  }
-
-  .left-column, .right-column {
-    padding: 0;
-    border: none;
-  }
-
-  h2 {
-    font-size: 1.2rem;
-    color: #000000; /* Black color for headings */
-  }
-
-  h3 {
-    font-size: 1rem;
-    color: #000000; /* Black color for sub-headings */
-  }
-
-  .resume-footer {
-    flex-direction: column;
-    gap: 10px;
-    text-align: center;
-  }
-
-  i {
-    font-size: 1.2rem;
-  }
+.resume {
+  width: 90%;
+  max-width: 1000px;
+  margin: 30px auto;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  padding: 30px;
 }
 
-/* For larger screens (PCs) */
-@media (min-width: 1024px) {
-  .resume {
-    width: 70%;
-    max-width: 900px;
-    padding: 20px;
-    margin: auto; /* Center the resume */
-    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
-  }
-
-  .resume-header {
-    flex-direction: row;
-    justify-content: flex-start;
-    margin-bottom: 30px;
-  }
-
-  .profile-image img {
-    width: 120px;
-    height: 120px;
-    border-radius: 50%; /* Always circular */
-    object-fit: cover;
-  }
-
-  .resume-body {
-    flex-direction: row;
-    gap: 20px;
-  }
-
-  .left-column, .right-column {
-    padding: 0;
-    border: none;
-  }
-
-  .left-column {
-    border-right: 2px solid #444; /* For PC only */
-  }
-
-  h2 {
-    font-size: 1.5rem;
-    color: #000000; /* Black color for headings */
-  }
-
-  h3 {
-    font-size: 1.2rem;
-    color: #000000; /* Black color for sub-headings */
-  }
-
-  .resume-footer {
-    flex-direction: row;
-    justify-content: space-between;
-  }
-
-  i {
-    font-size: 1.4rem;
-  }
+.flex {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
 }
 
-.education-list {
-  list-style-type: none;
-  padding: 0;
+.profile-image img {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  object-fit: cover;
+  /* border: 3px solid #000000; */
+}
+
+.header-text h1 {
+  margin: 0;
+  font-size: 2rem;
+  color: #000000;
+}
+
+.contact-info p {
+  margin: 5px 0;
+  font-size: 0.95rem;
+}
+
+.resume-body {
+  margin-top: 25px;
+  gap: 20px;
+}
+
+.left-column, .right-column {
+  flex: 1;
+}
+
+.right-column {
+  max-width: 250px;
+}
+
+/* Sections */
+section {
+  margin-bottom: 25px;
+  padding: 15px 20px;
+  border-radius: 10px;
+  background-color: #f9fafc;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+section:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+}
+
+section h2 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-bottom: 2px solid #000000;
+  padding-bottom: 5px;
+  margin-bottom: 12px;
+  color: #000000;
+}
+
+ul {
+  padding-left: 20px;
 }
 
 .education-item {
   display: flex;
   justify-content: space-between;
-  padding: 10px 0;
+  margin-bottom: 8px;
 }
 
-.course-name {
+.education-item span.course-name {
   font-weight: bold;
 }
 
-.course-details {
-  text-align: right;
+.education-item span.course-details {
+  font-style: italic;
+  color: #555;
+}
+
+/* Footer */
+.resume-footer {
+  text-align: center;
+  padding: 15px 0;
+  border-top: 1px solid #ddd;
+  margin-top: 25px;
+  font-size: 0.9rem;
+  color: #777;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .flex {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .education-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .education-item span.course-details {
+    margin-top: 3px;
+  }
+}
+
+@media (max-width: 480px) {
+  .profile-image img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .header-text h1 {
+    font-size: 1.6rem;
+    text-align: center;
+  }
+
+  .contact-info {
+    text-align: center;
+  }
+
+  section h2 {
+    font-size: 1.1rem;
+  }
 }
